@@ -1,0 +1,103 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #bcad7c;
+  font-size: 16px;
+  font-family: 'Open Sans Condensed', sans-serif; 
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; 
+  font-family: 'Bitter', serif;
+}
+
+h1 { 
+  font-size:300%;
+}
+h2 {
+  font-size:250%;
+}
+p { margin: 1em 0; }
+
+a         { color: #082900; }
+a:hover   { color: #082900; }
+a:visited { color: #082900; }
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+header {
+  background: url(/assets/images/masthead4.jpg) no-repeat;
+  height:600px;
+}
+
+header h1, header h2 {
+  color:#fff;
+}
+
+header p {
+  width:50%;
+  max-width:400px;
+  margin:0 auto;
+  font-size:22px;
+  line-height:1.4;
+  color:#fff;
+  text-align:left;
+}
+
+header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+header a.extra:hover {
+  color: #000;
+}
+
+footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+footer .contact a {
+  color: #8085C1;
+}
+
+footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+footer .rss img {
+  border: 0;
+}
