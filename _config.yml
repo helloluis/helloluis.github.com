@@ -5,10 +5,5 @@ exclude: [Gemfile, Gemfile.lock, deploy.sh, LICENSE, README.md]
 sass:
   syntax: sass        # scss|sass
   style:  compressed  # nested|expanded|compact|compressed
-locales:
-  en:
-    title: "example"
-  de:
-    title: "example"
 slim:
   pretty:  true 

@@ -56,6 +56,9 @@ GEM
       sass (>= 3.0.0)
     jekyll-sitemap (0.2.0)
       jekyll (~> 1.4)
+    jekyll-slim (0.8.2)
+      jekyll (>= 0.10.0)
+      slim
     jemoji (0.1.0)
       gemoji (~> 1.5.0)
       html-pipeline (~> 1.5.0)
@@ -105,5 +108,5 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-sass
+  jekyll-slim
   sass
-  slim
