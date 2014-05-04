@@ -1,4 +1,5 @@
 auto: true
+pygments: true
 permalink: pretty
 exclude: [Gemfile, Gemfile.lock, deploy.sh, LICENSE, README.md]
 sass:
