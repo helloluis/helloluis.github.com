@@ -1,0 +1,151 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background: #0a2122 url(/assets/images/bg_texture.jpg);
+  font-size: 16px;
+  font-family: 'Open Sans Condensed', sans-serif; 
+  text-align: center;
+  color: #6F938D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; 
+}
+
+h1 { 
+  font-size:300%;
+}
+h2 {
+  font-size:170%;
+}
+p { margin: 1em 0; }
+
+a         { color: #082900; }
+a:hover   { color: #082900; }
+a:visited { color: #082900; }
+
+h1.logo {
+  text-indent:-4000px;
+  display:block;
+  background:url(/assets/images/logo2.png) no-repeat top center;
+  width:486px;
+  height:120px;
+  margin:0px auto 30px auto;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+header {
+  background: #101312 url(/assets/images/masthead5.jpg) repeat-x top center;
+  padding:180px 0px 0px 0px;
+  height:420px;
+}
+
+header h1, header h2 {
+  color:#fff;
+}
+
+header h1.tagline {
+  font-size:200%;
+  margin-top:20px;
+  font-weight:normal;
+  text-shadow: 2px 2px 0px #000;
+  letter-spacing: 2px;
+}
+
+section h1 {
+  color:#93806C;
+  margin-bottom:20px;
+}
+
+header, section {
+  margin-bottom:40px;
+}
+
+section.intro {
+  margin-top:20px;
+}
+
+.intro p {
+  width:50%;
+  max-width:600px;
+  margin:0px auto;
+  font-size:22px;
+  line-height:1.4;
+  text-align:left;
+}
+
+section.portfolio ul {
+  list-style-type:none;
+  overflow:hidden;
+  width:50%;
+  max-width:600px;
+  margin:0px auto;
+  padding:0px;
+}
+
+section.portfolio li {
+  float:left;
+  width:30%;
+  height:200px;
+  margin-right:1%;
+  padding:0px;
+}
+
+section.portfolio li img {
+  width:100%;
+  height:85%;
+  background:rgba(255,255,255,0.5);
+  margin-bottom:5px;
+}
+
+section.portfolio li p {
+  margin-top:0px;
+}
+
+section.portfolio li p a {
+  color:#fff;
+}
+
+footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+footer .contact a {
+  color: #8085C1;
+}
+
+footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+footer .rss img {
+  border: 0;
+}
