@@ -13,10 +13,11 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #bcad7c;
+  background: #0a2122 url(/assets/images/bg_texture.jpg);
   font-size: 16px;
   font-family: 'Open Sans Condensed', sans-serif; 
   text-align: center;
+  color: #6F938D;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,28 +52,21 @@ header h1, header h2 {
   color:#fff;
 }
 
-header p {
+header, section {
+  margin-bottom:40px;
+}
+
+section.intro {
+  margin-top:20px;
+}
+
+.intro p {
   width:50%;
-  max-width:400px;
-  margin:0 auto;
+  max-width:600px;
+  margin:0px auto;
   font-size:22px;
   line-height:1.4;
-  color:#fff;
   text-align:left;
-}
-
-header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-header a.extra:hover {
-  color: #000;
 }
 
 footer {
