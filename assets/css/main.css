@@ -22,20 +22,28 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; 
-  font-family: 'Bitter', serif;
 }
 
 h1 { 
   font-size:300%;
 }
 h2 {
-  font-size:250%;
+  font-size:170%;
 }
 p { margin: 1em 0; }
 
 a         { color: #082900; }
 a:hover   { color: #082900; }
 a:visited { color: #082900; }
+
+h1.logo {
+  text-indent:-4000px;
+  display:block;
+  background:url(/assets/images/logo.png) no-repeat top center;
+  width:320px;
+  height:105px;
+  margin:0px auto 30px auto;
+}
 
 /*****************************************************************************/
 /*
@@ -44,12 +52,26 @@ a:visited { color: #082900; }
 /*****************************************************************************/
 
 header {
-  background: url(/assets/images/masthead4.jpg) no-repeat;
-  height:600px;
+  background: #101312 url(/assets/images/masthead4.jpg) repeat-x top center;
+  padding:250px 0px 0px 0px;
+  height:350px;
 }
 
 header h1, header h2 {
   color:#fff;
+}
+
+header h1 {
+  font-size:400%;
+  margin-top:20px;
+  font-weight:normal;
+  text-shadow: 2px 2px 0px #000;
+  letter-spacing: 1px;
+}
+
+section h1 {
+  color:#93806C;
+  margin-bottom:20px;
 }
 
 header, section {
@@ -67,6 +89,38 @@ section.intro {
   font-size:22px;
   line-height:1.4;
   text-align:left;
+}
+
+section.portfolio ul {
+  list-style-type:none;
+  overflow:hidden;
+  width:50%;
+  max-width:600px;
+  margin:0px auto;
+  padding:0px;
+}
+
+section.portfolio li {
+  float:left;
+  width:30%;
+  height:200px;
+  margin-right:1%;
+  padding:0px;
+}
+
+section.portfolio li img {
+  width:100%;
+  height:85%;
+  background:rgba(255,255,255,0.5);
+  margin-bottom:5px;
+}
+
+section.portfolio li p {
+  margin-top:0px;
+}
+
+section.portfolio li p a {
+  color:#fff;
 }
 
 footer {
