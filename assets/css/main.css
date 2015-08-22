@@ -16,7 +16,7 @@ body {
   background: #101312 url(/assets/images/masthead6.jpg);
   background-attachment:fixed;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'Lato', sans-serif; 
   text-align: center;
   color: #3a4944;
@@ -24,6 +24,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; 
+}
+
+strong {
+  font-weight:700;
 }
 
 h1 { 
@@ -174,6 +178,7 @@ section li {
 
 section.writing small.publication {
   font-size:12px;
+  font-weight:400;
   font-variant:small-caps;
   padding:3px;
   background:#AFC3BD;
