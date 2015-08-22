@@ -13,11 +13,13 @@
 html, body { height: 100%; }
 
 body {
-  background: #0a2122 url(/assets/images/bg_texture.jpg);
+  background: #101312 url(/assets/images/masthead6.jpg);
+  background-attachment:fixed;
+  /* background: #bbb url(/assets/images/subtle_surface.png); */
   font-size: 16px;
-  font-family: 'Open Sans Condensed', sans-serif; 
+  font-family: 'Oxygen', sans-serif; 
   text-align: center;
-  color: #6F938D;
+  color: #3a4944;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,15 +28,21 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 { 
   font-size:300%;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 h2 {
   font-size:170%;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
+h3 {
+  font-size:135%;
+}
+
 p { margin: 1em 0; }
 
-a         { color: #082900; }
-a:hover   { color: #082900; }
-a:visited { color: #082900; }
+a         { color: #445563; }
+a:hover   { color: #54738b; }
+a:visited { color: #54738b; }
 
 h1.logo {
   text-indent:-4000px;
@@ -51,10 +59,20 @@ h1.logo {
 /*
 /*****************************************************************************/
 
+.avatar {
+  border-radius: 60px;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border: 2px solid #fff;
+  width: 120px;
+  height: 120px;
+}
+
 header {
-  background: #101312 url(/assets/images/masthead5.jpg) repeat-x top center;
-  padding:250px 0px 0px 0px;
-  height:350px;
+  /* background: #101312 url(/assets/images/masthead6.jpg) repeat-x top center; */
+  
+  padding:180px 0px 0px 0px;
+  height:400px;
 }
 
 header h1, header h2 {
@@ -69,65 +87,98 @@ header h1 {
   letter-spacing: 1px;
 }
 
+section {
+  background: #bbb url(/assets/images/subtle_surface.png);
+}
+
 section h1 {
   color:#93806C;
   margin-bottom:20px;
 }
 
+section h2 {
+  width:50%;
+  max-width:600px;
+  margin:0px auto 20px auto;
+  color:#3a4944;
+  text-align:left;
+}
+
 header, section {
-  margin-bottom:40px;
+  padding-bottom:40px;
 }
 
 section.intro {
-  margin-top:20px;
+  padding-top:40px;
 }
+
+ul.social-media li {
+  overflow:hidden;
+}
+ul.social-media li span {
+  float:left;
+}
+ul.social-media li span.social-link {
+  padding:12px 0px 12px 0px;
+}
+.icon {
+  background: url(/assets/images/icons.png);
+  width:48px;
+  height:48px;
+  display:inline-block;
+  margin-right:12px;
+}
+
+.icon.icon-medium { background-position:-192px 0px; }
+.icon.icon-twitter { background-position:-144px 0px; }
+.icon.icon-github { background-position:-240px 0px; }
+.icon.icon-email { background-position:-384px 0px; }
+
 
 .intro p {
   width:50%;
   max-width:600px;
-  margin:0px auto;
-  font-size:22px;
-  line-height:1.4;
+  margin:0px auto 18px auto;
+  font-size:16px;
+  line-height:1.6;
   text-align:left;
 }
 
-section.portfolio ul {
+.intro p.lead {
+  font-size:22px;
+  line-height:1.4;
+}
+
+section ul {
   list-style-type:none;
-  overflow:hidden;
   width:50%;
   max-width:600px;
-  margin:0px auto;
-  padding:0px;
+  margin:0px auto 18px auto;
+  text-align:left;
 }
 
-section.portfolio li {
-  float:left;
-  width:30%;
-  height:200px;
-  margin-right:1%;
-  padding:0px;
+section li {
+  list-style-type:none;
+  text-align:left;
+  margin-bottom:15px;
+  line-height:1.6;
+  font-size:16px;
 }
 
-section.portfolio li img {
-  width:100%;
-  height:85%;
-  background:rgba(255,255,255,0.5);
-  margin-bottom:5px;
-}
-
-section.portfolio li p {
-  margin-top:0px;
-}
-
-section.portfolio li p a {
-  color:#fff;
+section.writing small.publication {
+  font-size:12px;
+  font-variant:small-caps;
+  padding:3px;
+  background:#AFC3BD;
+  color:#123;
+  margin-right:10px;
 }
 
 footer {
+  background:rgba(255,255,255,0.8);
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
+  padding-top: 2em;
   overflow: hidden;
 }
 
