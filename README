@@ -1,0 +1,10 @@
+To run local server:
+
+jekyll serve --watch
+
+To push:
+
+git push origin gh-pages
+
+
+* Remember that Github doesn't pre-process the SLIM files so you need to make sure that the final HTML (/index.html) has already been rendered and then copied over the file in _site/index.html when you push.
