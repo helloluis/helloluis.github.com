@@ -33,7 +33,7 @@ strong {
 h1 { 
   font-size:300%;
   font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-weight: 200;
 }
 h2 {
   font-size:170%;
@@ -113,6 +113,15 @@ section h2 {
 
 header, section {
   padding-bottom:40px;
+}
+
+header p.lead {
+  color: white;
+  font-size: 18px;
+}
+
+header p.lead a {
+  color: white;
 }
 
 section.intro {
